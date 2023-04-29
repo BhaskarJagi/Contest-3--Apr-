@@ -1,0 +1,102 @@
+.navbar .container-fluid
+{
+    margin-left: 7rem;
+}
+.navbar .collapse .d-flex
+{
+    margin-right: 7rem;
+}
+.carousel-inner
+{
+    width: 100%;
+}
+.carousel-inner .carousel-item img
+{
+    width: 90%;
+    height: 100vh;
+    background-size: cover;
+}
+.carousel-indicators button
+{
+    display: none;
+}
+.carousel-indicators .carousel-btn
+{
+    border-radius: 10px;
+    display: block;
+    font-weight: 700;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.696);
+}
+.container
+{
+     margin-top: 2rem;
+     margin-right: auto;
+     margin-left: auto;
+     margin-bottom: 2rem;
+     width: 1200px;
+}
+.container .row img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.flex-box
+{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container1
+{
+    height: 5px;
+}
+.bold{
+    font-size: medium;
+    font-weight: 900;
+}
+.goto-btn
+{
+    display: inline-block;
+    float:right;
+    margin-right: 10rem;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+.cpr{
+    display: inline-block;
+    float: left;
+    margin-left: 20rem;
+}
+@media (min-width: 400px )and ( max-width:1250px)
+{
+   .cpr{
+    float:none;
+    display: inline;
+    margin: 0;
+    margin-left: 5rem;
+    margin-right: auto;
+
+   }
+   .goto-btn{
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   .flex-box
+   {
+    position: relative;
+   }
+   .flex-box .card
+   {
+    display:block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   }
+}
